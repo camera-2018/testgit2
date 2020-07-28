@@ -62,11 +62,6 @@ ssh-keygen -t rsa -C "youremail@example.com"
 ssh -T git@github.com
 ```
 
-
-=======
-```git
-ssh -T git@github.com
-```
 用此命令验证
 使用ssh好处是不用每次上传都输密码
 
