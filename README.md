@@ -59,11 +59,16 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 创建一个ssh秘钥 在~/.ssh文件夹打开 id_rsa.pub
 复制粘贴到github  Account => Settings =>ssh
+<<<<<<< HEAD
 ```git
 	ssh -T git@github.com
 ```
 
 
+=======
+
+	ssh -T git@github.com
+>>>>>>> fc4b9d5221f124065050379cee2adbf28f310bac
 用此命令验证
 使用ssh好处是不用每次上传都输密码
 
