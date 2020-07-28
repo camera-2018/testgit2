@@ -28,9 +28,9 @@
 
 ```git
 
-	git add 文件名
-	git add .          //全部文件
-	git add *.txt      //通配符
+git add 文件名
+git add .          //全部文件
+git add *.txt      //通配符
 ```
 
 
@@ -51,8 +51,11 @@
 # github
 - 使用ssh
 
+```git
 
-	ssh-keygen -t rsa -C "youremail@example.com"
+ssh-keygen -t rsa -C "youremail@example.com"
+	
+```
 
 创建一个ssh秘钥 在~/.ssh文件夹打开 id_rsa.pub
 复制粘贴到github  Account => Settings =>ssh
@@ -64,14 +67,14 @@
 - 提交到github
 ```git
 
-	 git remote add origin git@github.com:camera-2018/testgit2.git
+git remote add origin git@github.com:camera-2018/testgit2.git
 	 
 ```
 会在 \.git\config 文件里加进名称为origin的网址
 
 ```git
 
-	 git push origin master 
+git push origin master 
 
 ```
 推送到github
