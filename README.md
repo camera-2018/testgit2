@@ -3,8 +3,8 @@
 
 
 
-	 git config --global user.name "username"
-	 git config --global user.email "email@.com"
+	git config --global user.name "username"
+	git config --global user.email "email@.com"
 配置用户信息
 
 
@@ -58,6 +58,8 @@
 
 	 git remote add origin git@github.com:camera-2018/testgit2.git
 会在 \.git\config 文件里加进名称为origin的网址
+
+
 
 	 git push origin master 
 
