@@ -19,16 +19,24 @@
 
 
 	git status
+	
+	
 查看暂存区目录
 - 未暂存标红
 - 暂存但未commit标绿
+
+
 
 
 	git add 文件名
 	git add .          //全部文件
 	git add *.txt      //通配符
 
+
+
 添加文件到暂存区
+
+
 
 	git commit -m "COMMIT注释"
 为上传的文件标注
